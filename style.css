@@ -1,0 +1,42 @@
+input, select, textarea{
+    display: block;
+    margin: 4px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: rgb(211, 91, 91);
+    
+}
+
+
+::placeholder{
+    color: black;
+}
+.inline{
+    display: inline;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100%;
+}
+
+.container{
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    background-color:rgb(124, 219, 243)
+}
+h1{
+    text-align: center;
+}
+.btn{
+    display: inline;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(31, 167, 221);
+}
